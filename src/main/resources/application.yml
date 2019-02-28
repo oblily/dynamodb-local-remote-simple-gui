@@ -1,0 +1,17 @@
+spring:
+  output:
+    ansi:
+      enabled: always # make console with color.  
+
+server:
+    port: 9999
+
+aws:
+    common:
+        region: ap-northeast-1
+        profile: C:\Work\kou\work\dynamodbClient\dynamodb-client-web-gui\src\main\resources\awscredential.properties
+    dynamodb:
+        endpoint: http://localhost:8000
+        
+
+
